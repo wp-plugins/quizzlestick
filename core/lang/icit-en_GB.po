@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ICIT Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-25 12:50-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Interconnect IT <admin@interconnectit.com>\n"
+"Language-Team: Interconnect IT\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core.php:66
+msgid ""
+"icit_core should be included at the top of your theme or plug-in file and "
+"should load before the init action."
+msgstr ""
+"icit_core should be included at the top of your theme or plug-in file and "
+"should load before the init action."
+
+#: ../icit-custom-controls.php:91
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Select &mdash;"
+
+#: ../icit-fields.php:204 ../icit-fields.php:269
+msgid "Day"
+msgstr "Day"
+
+#: ../icit-fields.php:204 ../icit-fields.php:269
+msgid "Week"
+msgstr "Week"
+
+#: ../icit-fields.php:204 ../icit-fields.php:269
+msgid "Month"
+msgstr "Month"
+
+#: ../icit-fields.php:205 ../icit-fields.php:270
+msgid "Nothing to select"
+msgstr "Nothing to select"
+
+#: ../icit-fields.php:309
+msgid "Could not find any pages."
+msgstr "Could not find any pages."
+
+#: ../icit-fields.php:328 ../icit-fields.php:373
+msgid "None"
+msgstr "None"
+
+#: ../icit-fields.php:351
+msgid "No terms found."
+msgstr "No terms found."
+
+#: ../icit-fields.php:422
+#, fuzzy
+msgctxt "Date time format"
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#. translators: 1: month number (01, 02, etc.), 2: month abbreviation
+#: ../icit-fields.php:440
+#, fuzzy, php-format
+msgctxt "1: month number (01, 02, etc.), 2: month abbreviation"
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: ../icit-fields.php:453
+msgid "Date time"
+msgstr "Date time"
+
+#: ../icit-fields.php:454
+msgid "Not currently set."
+msgstr "Not currently set."
+
+#: ../icit-fields.php:456
+msgid "Edit"
+msgstr "Edit"
+
+#: ../icit-fields.php:459
+#, fuzzy, php-format
+msgctxt "1:Month 2:Day, 3:Year, 4:Hour, 5:Minute"
+msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
+msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
+
+#: ../icit-fields.php:467
+msgid "OK"
+msgstr "OK"
+
+#: ../icit-fields.php:468
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ../icit-fields.php:510
+msgid ""
+"This image select field is only supported on WordPress 3.5 and above but you "
+"can enter an attachment ID in the field provided."
+msgstr ""
+"This image select field is only supported on WordPress 3.5 and above but you "
+"can enter an attachment ID in the field provided."
+
+#: ../icit-fields.php:518 ../icit-fields.php:520 ../icit-fields.php:546
+msgid "Change the image"
+msgstr "Change the image"
+
+#: ../icit-fields.php:521
+msgid "Remove image"
+msgstr "Remove image"
+
+#: ../icit-fields.php:525 ../icit-fields.php:544
+msgid "Choose an image"
+msgstr "Choose an image"
+
+#: ../icit-fields.php:530
+msgid "JavaScript is required to select an image."
+msgstr "JavaScript is required to select an image."
+
+#: ../icit-fields.php:545
+msgid "Select"
+msgstr "Select"
+
+#: ../icit-fields.php:547
+msgid "Remove the image"
+msgstr "Remove the image"
+
+#: ../icit-fields.php:548
+msgid "Something has gone wrong."
+msgstr "Something has gone wrong."
+
+#: ../icit-helpers.php:167
+#, php-format
+msgid "The passed ID (%d) is not that of an attachment or an image."
+msgstr "The passed ID (%d) is not that of an attachment or an image."
+
+#: ../icit-helpers.php:190
+msgid "The attachment has not got a file path attached."
+msgstr "The attachment has not got a file path attached."
+
+#: ../icit-helpers.php:200
+msgid "The attachment is reporting a width or height of zero."
+msgstr "The attachment is reporting a width or height of zero."
+
+#: ../icit-helpers.php:277
+msgid "Couldn't create the new resized image."
+msgstr "Couldn't create the new resized image."
+
+#: ../icit-helpers.php:375
+#, php-format
+msgid ""
+"This will override the default %s for archive listings and singular posts in "
+"the %s category."
+msgstr ""
+"This will override the default %s for archive listings and singular posts in "
+"the %s category."
+
+#: ../icit-notices.php:129
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#: ../icit-options.php:78 ../icit-plugin.php:100 ../icit-theme.php:100
+#, php-format
+msgid ""
+"Wrong ICIT Core version. Class \"%3$s\" expecting core version version %2$s "
+"but got version %1$s in file %4$s"
+msgstr ""
+"Wrong ICIT Core version. Class \"%3$s\" expecting core version version %2$s "
+"but got version %1$s in file %4$s"
+
+#: ../icit-options.php:154 ../icit-plugin.php:173 ../icit-theme.php:267
+msgid "Instructions"
+msgstr "Instructions"
+
+#: ../icit-options.php:783 ../icit-plugin.php:184 ../icit-theme.php:465
+#, php-format
+msgid ""
+"You need to have a %s method when extending this class (%s) or add "
+"$create_options_page = false; to your class."
+msgstr ""
+"You need to have a %s method when extending this class (%s) or add "
+"$create_options_page = false; to your class."
+
+#: ../icit-options.php:798
+msgid "You do not have permission to use this page."
+msgstr "You do not have permission to use this page."
+
+#: ../icit-options.php:844
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: ../icit-plugin.php:96
+msgid ""
+"icit_plugin should extend your plug-in class and parent::__construct should "
+"be activated before the init action."
+msgstr ""
+"icit_plugin should extend your plug-in class and parent::__construct should "
+"be activated before the init action."
+
+#: ../icit-plugin.php:106
+msgid "You need to add \"const FILE = __FILE__;\" to any class extending "
+msgstr "You need to add \"const FILE = __FILE__;\" to any class extending "
+
+#: ../icit-plugin.php:254
+msgid "Visit plugin home page"
+msgstr "Visit plugin home page"
+
+#: ../icit-theme.php:96
+msgid ""
+"icit_theme should extend your theme class and parent::__construct should be "
+"activated before the init action."
+msgstr ""
+"icit_theme should extend your theme class and parent::__construct should be "
+"activated before the init action."
+
+#: ../icit-theme.php:186
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: ../icit-theme.php:190
+msgid "Read more link"
+msgstr "Read more link"
+
+#: ../icit-theme.php:190
+msgid ""
+"Shown after the excerpt as a link to the full content. default is blank."
+msgstr ""
+"Shown after the excerpt as a link to the full content. default is blank."
+
+#: ../icit-theme.php:191
+msgid "Excerpt length"
+msgstr "Excerpt length"
+
+#: ../icit-theme.php:191
+msgid "Words, default is 55 minimum is 3."
+msgstr "Words, default is 55 minimum is 3."
+
+#: ../icit-theme.php:414
+msgid "Read more"
+msgstr "Read more"
+
+#: ../icit-theme.php:522
+msgid "Visit theme home page"
+msgstr "Visit theme home page"
+
+#: ../icit-theme.php:527
+msgid "Core files"
+msgstr "Core files"
