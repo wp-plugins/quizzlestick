@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+	<head>
+		<title>QuizzleStick</title>
+		<link rel="stylesheet" type="text/css" href="quizzlestick.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+		<script src="quizzlestick.js"></script>
+	</head>
+	<body>
+
+		<h1>Quickfire</h1>
+		<div class="quickfire"></div>
+
+		<h1>Multiple questions</h1>
+		<div class="multiple"></div>
+
+		<h1>Timed</h1>
+		<div class="timed"></div>
+
+		<h1>Multiple results</h1>
+		<div class="multiple-results"></div>
+
+
+
+		<script>
+			$( '.quickfire' ).quizzlestick( {
+				description: 'Quickfire quizzes!',
+				templates: {
+					answer: '\
+						<li class="quizzlestick-answer">\
+							<a href="#">{{answer}}</a>\
+							{{helpers.answerwidth}}%\
+						</li>\
+					'
+				},
+				questions: [
+					{
+						question: 'Who is older?',
+						answers: [
+							{
+								answer: 'Gerrard',
+								total: 300
+
+							},
+							{
+								answer: 'Owen',
+								correct: true,
+								total: 1000
+							}
+						]
+					}
+				]
+			} );
+
+			$( '.timed' ).quizzlestick( {
+				description: 'Timed quiz with automatic advancement',
+				timelimit: 30000,
+				nextdelay: 500,
+				results: 'You scored {{state.points}} out of {{state.maxpoints}} in {{helpers.time}}',
+				questions: [
+					{
+						question: 'Who is older?',
+						answers: [
+							{
+								answer: 'Pointy haired boss'
+							},
+							{
+								answer: 'Aguerro'
+
+							},
+							{
+								answer: 'Vivaldi',
+								correct: true
+							}
+						]
+					},
+					{
+						question: 'Who is older?',
+						answers: [
+							{
+								answer: 'Liz'
+							},
+							{
+								answer: 'Rob',
+								correct: true
+							},
+						]
+					},
+					{
+						question: 'Who is older?',
+						answers: [
+							{
+								answer: 'Barney',
+								correct: true
+							},
+							{
+								answer: 'Jeff'
+							},
+						]
+					}
+				]
+			} );
+
+
+			$( '.multiple-results' ).quizzlestick( {
+				results: [
+					{ points: 1, template: '<p>Maybe your shouldve paid attention in history</p>' },
+					{ points: 2, template: '<p>Not too shabby</p>' },
+					{ points: 3, template: '<p>Smarty pantaloons!</p>' }
+				],
+				questions: [
+					{
+						question: '<p>Who is older?</p>',
+						answers: [
+							{
+								answer: 'Pointy haired boss',
+								total: 100
+							},
+							{
+								answer: 'Aguerro',
+								total: 300
+
+							},
+							{
+								answer: 'Vivaldi',
+								correct: true,
+								total: 1000
+							}
+						]
+					},
+					{
+						question: '<p>Who is older?</p>',
+						answers: [
+							{
+								answer: 'Liz'
+							},
+							{
+								answer: 'Rob',
+								correct: true
+							},
+						]
+					},
+					{
+						question: '<p>Who is older?</p>',
+						answers: [
+							{
+								answer: 'Barney',
+								correct: true
+							},
+							{
+								answer: 'Jeff'
+							},
+						]
+					}
+				]
+			} );
+		</script>
+
+	</body>
+</html>

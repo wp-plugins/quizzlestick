@@ -1,0 +1,43 @@
+
+.question-field .form-table,
+.answer-field .form-table,
+.multiple-results .form-table {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.question-field .form-table th,
+.answer-field .form-table th,
+.multiple-results .form-table th {
+	padding-left: 10px;
+}
+
+.question-field .deletion,
+.multiple-results .deletion {
+	margin: 10px;
+}
+
+.form-table .form-table {
+
+}
+
+.quiz-field-radio td label {
+	margin-right: 20px;
+}
+
+.quiz-field-number .description {
+	display: inline-block;
+}
+
+.field-image {
+	margin-top: 10px;
+}
+
+.field-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+.basic-mce {
+	
+}

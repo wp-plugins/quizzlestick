@@ -1,0 +1,1 @@
+!function(t){t.fn.quizzlestick.defaults.api={send:function(i,n){i.qsaction=i.action,i=t.extend(!0,i,{_qsnonce:quizzlestickwp.nonce,action:"quizzlestick_api",state:n.state}),t.post(quizzlestickwp.ajaxurl,i)}}}(jQuery);
