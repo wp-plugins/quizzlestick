@@ -1,0 +1,10 @@
+{
+	"name"        : "icit/core",
+	"description" : "ICIT Core library.",
+	"keywords"    : ["wordpress"],
+	"homepage"    : "https://interconnectit.com",
+	"license"     : "GPL-2.0+",
+	"require"     : {
+		"php"     : ">=5.2.14"
+	}
+}

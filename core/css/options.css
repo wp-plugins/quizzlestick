@@ -1,0 +1,18 @@
+.icit-options-page .icit-branding { background: #fff; }
+.icit-options-page .icit-logo { color: #000; font-family: 'Gill Sans MT', 'Gill Sans', Helvetica, Calibri, Arial, sans-serif; font-weight: normal; padding: 10px 20px; border-top: 20px solid #de1301; font-size: 13px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.icit-options-page .icit-logo span { color: #de1301; }
+.icit-options-page .icit-branding h3,
+.icit-options-page .icit-branding h3:hover { margin: 10px 0; padding: 0 !important; cursor: text; font-size: 24px!important; background: none; color: #464646; border: 0; }
+.icit-options-page .icit-branding p { margin: 20px 0; line-height: 16px; }
+.icit-options-page .icit-branding p cite { display: none; }
+.icit-options-page .icit-branding .icit-info { margin: 10px 20px 20px; }
+.icit-options-page .icit-branding .icit-info div { margin: 10px 0; }
+.icit-options-page .icit-branding .icit-version { margin: 5px 0 10px; font-size: 12px; color: #232323; font-variant: small-caps; }
+.icit-options-page .icit-branding .icit-version strong { margin-left: 2px; font-size: 14px; }
+
+.icit-options-page .meta-box-sortables { clear: both; margin-top: 20px; }
+.icit-options-page #poststuff .left-column .column-inner > h3 { font-weight: bold; font-family: sans-serif; padding: 0; font-size: 1.17em; margin: 1em 0; }
+.icit-options-page .form-table { margin-bottom: 1em; }
+.icit-options-page span.description { overflow: hidden; display: inline-block; }
+
+input[type="checkbox"] { width: auto!important; }
