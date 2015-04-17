@@ -273,7 +273,7 @@ if ( ! class_exists( 'quizzlestick' ) && class_exists( 'icit_plugin' ) ) {
 			// main quiz config
 			$config = array(
 				'id' => 'quiz-' . $post->ID,
-				'title' => get_the_title()
+				'title' => get_the_title( $post->ID )
 			);
 			
 			$result_title = get_post_meta( $post->ID, 'result_title', true );

@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create quizzes test your visitors!
+Create quizzes to test your visitors!
 
 == Description ==
 
@@ -41,7 +41,7 @@ A new item will appear in the dashboard menu for Quizzes which will allow you to
 
 == Frequently Asked Questions ==
 
-= Is there any limit to the number of quizzes I can create?=
+= Is there any limit to the number of quizzes I can create? =
 As quizzes are a post type, there is no limit to the number of quizzes and they will be displayed in the same way your posts are!
 
 == Changelog ==
