@@ -4,7 +4,7 @@ Contributors: interconnectit
 Tags: quiz, plugins
 Requires at least: 4.0
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,7 +52,15 @@ A new item will appear in the dashboard menu for Quizzes which will allow you to
 = Is there any limit to the number of quizzes I can create? =
 As quizzes are a post type, there is no limit to the number of quizzes and they will be displayed in the same way your posts are!
 
+== Update Notice ==
+
+= 1.0.1 =
+* Changes to readme.txt
+
 == Changelog ==
+
+= 1.0.1 =
+* Couple of updates to the readme and adding more screenshots
 
 = 1.0 =
 * Initial release
