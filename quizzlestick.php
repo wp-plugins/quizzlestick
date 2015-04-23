@@ -3,7 +3,7 @@
  Plugin Name: Quizzlestick
  Plugin URI: http://interconnectit.com
  Description: Quizzlestick wrapper plugin to make creating quizzes within WordPress easy
- Version: 1.0
+ Version: 1.0.1
  Author: interconnect/it
  Author URI: http://interconnectit.com
 */
