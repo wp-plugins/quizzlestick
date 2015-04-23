@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create quizzes to test your visitors!
+Create quizzes test your visitors!
 
 == Description ==
 
@@ -35,9 +35,17 @@ A new item will appear in the dashboard menu for Quizzes which will allow you to
 
 == Screenshots ==
 
-1. Back end settings for the quiz
+1. Back end, with the option to add an image to your questions.
 
-2. Front end interface
+2. Back end, showing the answer settings.
+
+3. Front end, showing how the question appears when an image is applied.
+
+4. Front end view when an answer is correct.
+
+5. Front end view when an answer is wrong. Correct answer highlighted in green.
+
+6. Front end view of quiz results.
 
 == Frequently Asked Questions ==
 
